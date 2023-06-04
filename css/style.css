@@ -297,9 +297,7 @@ sidebar
    margin-bottom: 0.5rem;
    margin-left:0;
 }
-/* .bereket-img{
-    display:none;
-} */
+
 .bereket{
     background: var(--clr-white); 
 }
@@ -417,14 +415,15 @@ services
 }
 @media screen and (min-width:676px){
     .service-center{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        /* grid-template-columns: 1fr 1fr; */
         column-gap: 2rem;
     }
 }
 @media screen and (min-width:992px){
     .service-center{
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        /* grid-template-columns: 1fr 1fr 1fr; */
     }
 }
 /* 
