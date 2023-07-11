@@ -213,12 +213,12 @@ sidebar
      background: var(--clr-grey-10);
      z-index: 4;
      display: grid;
-     /* align-items: center;
-     justify-content: center; */
+     align-items: center;
+     justify-content: center;
      place-items: center;
      transition: var(--transition); 
      /* add later */
-     transform: translateX(-100%);
+     transform: translateX(100%);
  }
  .show-sidebar{
     transform: translateX(0%);
