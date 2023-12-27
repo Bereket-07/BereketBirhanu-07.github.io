@@ -246,7 +246,7 @@ sidebar
     justify-items: center;
  }
 .social-icon{
-    font: size 1.54rem;
+    font-size: 2rem;
     color: var(--clr-grey-1);
     transition: var(--transition);
 }
